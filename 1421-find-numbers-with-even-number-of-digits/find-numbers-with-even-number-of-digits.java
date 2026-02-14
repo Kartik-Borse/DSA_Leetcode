@@ -14,6 +14,12 @@ class Solution {
         // {
         //     num*=(-1);
         // }
+        // int d = 0;
+        // while (num > 0) {
+        //     num /= 10;
+        //     d++;
+        // }
+        // return d;
         return(int)(Math.log10(num)+1);
     }
 }
